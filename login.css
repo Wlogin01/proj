@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #007bff; /* changing background color to a blue shade */
+    color: white; 
+    text-align: center;
+    padding: 20px 0; /* adding more padding */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 8px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+
+footer {
+    background-color: #343a40; /* changing to darker shade */
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* adjusting padding */
+    font-size: 18px; /* adjusting font size */
+}

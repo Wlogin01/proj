@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Header styles */
+header {
+    background-color: #007bff; /* changing background color to a blue shade */
+    color: white; 
+    text-align: center;
+    padding: 20px 0; /* adding more padding */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* increasing the margin */
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* Main content styles */
+main {
+    padding: 50px; /* reducing padding */
+    background-color: #f8f9fa; /* adding a light gray background */
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 35px; /* adjusting margin */
+    background-color: #fff; /* adding white background */
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-buttons {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.image-buttons button {
+    background-color: #28a745; /* changing button background color */
+    color: #fff;
+    border: none;
+    padding: 8px 15px; /* adjusting padding */
+    margin: 5px; /* adjusting margin */
+    cursor: pointer;
+    border-radius: 20px; /* adjusting border radius */
+}
+
+
+.image-buttons button:hover {
+    background-color: #45a049;
+}
+
+.image-description, .username {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Story section styles */
+.story-section {
+    text-align: center;
+}
+
+
+.container {
+    position: relative; /* Ensures the container serves as a reference for absolute positioning */
+    width: 100px; /* Or set a specific width */
+    height: 10px; /* Or set a specific height */
+}
+
+.top-right-content {
+    position: absolute;
+    top: 10;
+    right: 600;
+} 
+
+.story-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.story-section p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #343a40; /* changing to darker shade */
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* adjusting padding */
+    font-size: 18px; /* adjusting font size */
+}
